@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/numWeight"
+        style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:hint="@string/edit_text_string"
+        android:inputType="number"
+        android:digits="0123456789."
+        android:layout_margin="25dp"
+        android:gravity="center"
+        android:padding="8dp"
+        android:background="@drawable/edit_text_background"
+        >
+
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/wordSearch"
+            android:layout_width="match_parent"
+            android:layout_margin="@dimen/margin_eight"
+            android:layout_height="match_parent"
+            android:textStyle="bold"
+            android:drawablePadding="@dimen/margin_eight"
+            android:padding="@dimen/margin_eight"
+            android:importantForAutofill="no"
+            android:drawableLeft="@drawable/ic_baseline_search_24"
+            android:inputType="text"
+             />
+
+
+
+
+
+
+    </com.google.android.material.textfield.TextInputLayout>
+
+
+    <com.google.android.material.button.MaterialButton
+        style="@style/Widget.MaterialComponents.Button.OutlinedButton"
+        android:id="@+id/button_find"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/button_text"
+        android:textSize="30dp"
+        android:layout_margin="@dimen/margin_eight"
+
+        android:fontFamily="sans-serif-black"
+        />
+
+
+
+
+
+
+</LinearLayout>
